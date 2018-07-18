@@ -19,7 +19,7 @@ public class CheckoutPage extends BasePage<CheckoutPage> {
     public CheckoutPage register(User user) {
         clearInputAndFillWith(By.xpath("email"), user.getEmail());
         clearInputAndFillWith(By.xpath("//input[contains(@id,'password')]"), user.getPassword());
-        waitAndClick(By.xpath("//*[@data-translation-id='checkout.form-register.button']"));
+        waitAndClick(By.xpath("//*[@-translation-id='checkout.form-register.button']"));
 
         return this;
     }
