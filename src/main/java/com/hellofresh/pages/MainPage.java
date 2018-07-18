@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class MainPage extends BasePage<MainPage> {
 
-    private By ViewBoxesButton = By.xpath("//*[@id='homeBannerCTA']");
+    private By ViewBoxesButton = By.xpath("//*[@id='yourBannerCTA']");
 
     public MainPage(WebDriver driver) {
         super(driver);
